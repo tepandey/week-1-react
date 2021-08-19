@@ -19,3 +19,9 @@ const myInfo ={
     }
 };
 console.log(myInfo);
+
+function sayHi(name){
+    return `my name is ${name}`;
+}
+
+console.log(sayHi("Tek"));
